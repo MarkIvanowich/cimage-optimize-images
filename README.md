@@ -28,6 +28,7 @@ Saved  43  kB.
 ```
 
 
+[![asciicast](https://asciinema.org/a/22233.png)](https://asciinema.org/a/22233)
 
 Credits and equal projects
 ------------------------------------------------
