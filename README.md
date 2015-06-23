@@ -28,7 +28,15 @@ Saved  43  kB.
 ```
 
 
+
+Demonstration
+------------------------------------------------
+
+Here is an asciicast of the commands to get going.
+
 [![asciicast](https://asciinema.org/a/22233.png)](https://asciinema.org/a/22233)
+
+
 
 Credits and equal projects
 ------------------------------------------------
