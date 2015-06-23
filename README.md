@@ -36,6 +36,13 @@ I was inspired by the Gist made by lgiraudel, [lgiraudel/optimize.sh](https://gi
 
 
 
+Revision
+------------------------------------------------
+
+v1.0.0 (2015-06-23)
+
+* First release.
+
 
 ```
  .  
