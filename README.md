@@ -18,7 +18,7 @@ rsync -a orig/ test/
 optimg test/*
 ```
 
-The output should looks something like this, stating what files were processed and a percentage on how much the filesize was reduced.
+The output should look something like this, stating what files were processed and a percentage on how much the filesize was reduced, if any. 100 is the original filesize.
 
 ```
 PNG-image:  test/1start.png  .......................................  99.15
