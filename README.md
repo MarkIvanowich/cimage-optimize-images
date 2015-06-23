@@ -38,6 +38,16 @@ Here is an asciicast of the commands to get going.
 
 
 
+Tools used
+------------------------------------------------
+
+External tools are used to optimize the images. 
+
+* JPEG uses `jpegtran`.
+* PNG uses `optipng` and `pngcrush`.
+
+
+
 Credits and equal projects
 ------------------------------------------------
 
