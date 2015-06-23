@@ -10,8 +10,11 @@ function optimg()
     local output
     local percent
     local diff=0
-    local width=$( tput cols )
-    local pad=$( printf '%*s' "$width" | tr " " "." )
+    local width=
+    local pad=
+
+    width=$( tput cols )
+    pad=$( printf '%*s' "$width" | tr " " "." )
 
     for img in "$@"; do
         if [ ! -f "$img" ]; then
@@ -28,8 +31,8 @@ function optimg()
             output="JPEG-image: $img "
             jpegtran -copy none -optimize -outfile /tmp/$$ "$img"; mv /tmp/$$ "$img"
         else
-			continue;
-		fi
+            continue;
+        fi
 
         output_file_size=$(stat -c%s "$img")
         diff=$(( diff + input_file_size - output_file_size ))
